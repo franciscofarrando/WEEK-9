@@ -13,6 +13,6 @@ while(true){
 
     } else{
         alert("Empate. PLAYER 1: " + player1 + " y PLAYER 2: " +player2);
-        
+        break;
     }
 }
