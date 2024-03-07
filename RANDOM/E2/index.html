@@ -7,10 +7,46 @@
     <title>RANDOM - DADOS</title>
 </head>
 <body>
-    <header></header>
+    <header>Juego de Dados</header>
 
-    <main></main>
-    
+    <main>
+        <div class="container">
+            <div class="p1">
+                <div class="playerStyle">
+                    <div>JUGADOR 1</div>
+                </div>
+
+                <input type="button" onclick="infoCaption1()" value="Lanzar" >
+
+                <div class="result1 "id="result1">
+                    
+                </div>
+                
+
+
+            </div>
+            <div class="p2">
+                <div class="playerStyle">
+                    <div>JUGADOR 2</div>
+                </div>
+
+                <input type="button" onclick="infoCaption2()"  value="Lanzar">
+
+                <div class="result2" id="result2">
+                
+                </div>
+            
+
+            </div>
+            <div class="finalResult">
+                <div class="resulText">RESULTADO:</div>
+                <div  id="resultado"> </div>
+
+            </div>
+        </div>
+
+    </main>
+
     <footer></footer>
 
     <script src="mains.js"></script>
